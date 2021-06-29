@@ -1,0 +1,15 @@
+
+// new products section template
+#new-products{
+    .owl-theme .owl-dots .owl-dot span {
+        margin: 5px;
+        background: $color-primary;
+        transition: .4s ease-in-out;
+    }
+    .owl-theme .owl-dots .owl-dot:hover span,
+    .owl-theme .owl-dots .owl-dot.active span{
+        width: 20px;
+        background: $color-orange;
+    }
+    
+}

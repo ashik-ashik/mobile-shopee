@@ -1,0 +1,57 @@
+
+// about page template
+
+#main-about{
+  #about-hero{
+    background: url(./assets/image/bg-32.jpg) center center ;
+    background-size: cover;
+    height: 60vh;
+  }
+
+  #learn-about .bx{
+    font-size: 50px;
+    color: $color-orange;
+  }
+  #advances .bx,
+  #advances .fa{
+    font-size: 50px;
+    color: $color-orange;
+  }
+  #advances h6{
+    margin: 15px 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  #our-skill .skill-progress{
+    height: 50px;
+    display: block;
+  }
+  #our-skill .skill-bar-wrap {
+    background: #EEE;
+  }
+  #our-skill .skill-bar-wrap .skill-bar{
+    background: $color-orange;
+    width: 1px;
+    height: 3px;
+    transition: 1s;
+  }
+
+  .team-member .mem-social{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #ffffffbc;
+    opacity: 0;
+    transition: .3s ease-in;
+  }
+  .team-member:hover .mem-social{
+    opacity: 1;
+  }
+  .team-member .mem-social .bx{
+    color: $color-black;
+    font-size: 20px;
+  }
+  .team-member .mem-social .bx:hover{
+    color: $color-orange;
+  }
+}

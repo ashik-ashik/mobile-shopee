@@ -1,0 +1,32 @@
+
+// global classes
+
+button{
+    outline: none;
+    border-radius: 2px;
+    font-family: $font-baloo;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border: none;
+    background: $color-orange;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.ptb{
+    padding: 8px 0;
+}
+.site-logo{
+    height: 40px;
+    width: auto;
+}
+a{
+    text-decoration: none !important;
+}
+
+.user-profile-pic{
+    width: 60px;
+    height: 60px;
+}
+

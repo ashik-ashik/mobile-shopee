@@ -1,0 +1,13 @@
+// special price template
+
+#filters{
+    .filter-btn{
+        border: 2px solid $color-orange;
+        font-size: 12px;
+    };
+    .is-checked{
+        border: 2px solid $color-orange;
+        background: transparent;
+        color: $color-orange;
+    };
+}

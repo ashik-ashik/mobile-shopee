@@ -1,0 +1,79 @@
+
+// top sale templates
+
+#top-sale-carousel{
+    .owl-carousel .product a{
+        overflow: hidden;
+        padding: 20px 0;
+    }
+    .owl-carousel .product img{
+        transition: transform .4s ease;
+    }
+    .owl-carousel .product img:hover{
+        transform: scale(1.1);
+    }
+    .owl-carousel .owl-nav button{
+        outline: none;
+        top: 50%;
+        position: absolute;
+        transform: translateY(-50%);
+    }
+    .owl-carousel .owl-nav button > span{
+        padding: 10px;
+        font-family: $font-rubi;
+        font-size: 35px;
+    }
+    .owl-carousel .owl-nav button:hover{
+        background: transparent;
+        color: $color-black;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        left: 0;
+        margin-left: -3rem;
+        transition: margin-left .4s ;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        right: 0;
+        margin-right: -3rem;
+        transition: margin-right .4s ;
+    }
+    .owl-carousel .owl-nav button.owl-prev:hover{
+        margin-left: -3.3rem;
+    }
+    .owl-carousel .owl-nav button.owl-next:hover{
+        margin-right: -3.3rem;
+    }
+
+}
+
+.cart-btn{
+    border: 2px solid $color-orange;
+    background: $color-orange;
+    color: $color-white;
+    transition: background .4s;
+}
+.cart-btn:hover{
+    border: 2px solid $color-orange;
+    background: transparent;
+    color: $color-orange;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:10241px) {
+    .owl-carousel .owl-nav button.owl-prev{
+        left: 0;
+        margin-left: 0rem;
+        transition: margin-left .4s ;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        right: 0;
+        margin-right: 0rem;
+        transition: margin-right .4s ;
+    }
+    .owl-carousel .owl-nav button.owl-prev:hover{
+        margin-left: 0rem;
+    }
+    .owl-carousel .owl-nav button.owl-next:hover{
+        margin-right: 0rem;
+    }
+}

@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/* SASS Temtpate */
+button {
+  outline: none;
+  border-radius: 2px;
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border: none;
+  background: #ff6600;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.ptb {
+  padding: 8px 0;
+}
+
+.site-logo {
+  height: 40px;
+  width: auto;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.user-profile-pic {
+  width: 60px;
+  height: 60px;
+}
+
+.f-f-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.f-f-rale {
+  font-family: "Raleway", cursive;
+}
+
+.f-f-rubi {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-s {
+  font-size: 12px;
+}
+
+.font-size-m {
+  font-size: 14px;
+}
+
+.font-size-n {
+  font-size: 15px;
+}
+
+.font-size-l {
+  font-size: 16px;
+}
+
+.font-size-xl {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-second {
+  color: #00a5c4;
+}
+
+.color-orange {
+  color: #ff6600;
+}
+
+.bg-color-primary {
+  background-color: #003859;
+}
+
+.bg-color-second {
+  background-color: #00a5c4;
+}
+
+.bg-color-orange {
+  background-color: #ff6600;
+}
+
+.bg-color-black {
+  background-color: #000;
+}
+
+.bg-color-gold {
+  background-color: #FFD700;
+}
+
+.bg-color-silver {
+  background-color: #c0c0c0;
+}
+
+#top-sale-carousel .owl-carousel .product a {
+  overflow: hidden;
+  padding: 20px 0;
+}
+#top-sale-carousel .owl-carousel .product img {
+  transition: transform 0.4s ease;
+}
+#top-sale-carousel .owl-carousel .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale-carousel .owl-carousel .owl-nav button {
+  outline: none;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+}
+#top-sale-carousel .owl-carousel .owl-nav button > span {
+  padding: 10px;
+  font-family: "Rubik", cursive;
+  font-size: 35px;
+}
+#top-sale-carousel .owl-carousel .owl-nav button:hover {
+  background: transparent;
+  color: #000;
+}
+#top-sale-carousel .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+  margin-left: -3rem;
+  transition: margin-left 0.4s;
+}
+#top-sale-carousel .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+  margin-right: -3rem;
+  transition: margin-right 0.4s;
+}
+#top-sale-carousel .owl-carousel .owl-nav button.owl-prev:hover {
+  margin-left: -3.3rem;
+}
+#top-sale-carousel .owl-carousel .owl-nav button.owl-next:hover {
+  margin-right: -3.3rem;
+}
+
+.cart-btn {
+  border: 2px solid #ff6600;
+  background: #ff6600;
+  color: #fff;
+  transition: background 0.4s;
+}
+
+.cart-btn:hover {
+  border: 2px solid #ff6600;
+  background: transparent;
+  color: #ff6600;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 10241px) {
+  .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+    margin-left: 0rem;
+    transition: margin-left 0.4s;
+  }
+
+  .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+    margin-right: 0rem;
+    transition: margin-right 0.4s;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev:hover {
+    margin-left: 0rem;
+  }
+
+  .owl-carousel .owl-nav button.owl-next:hover {
+    margin-right: 0rem;
+  }
+}
+#filters .filter-btn {
+  border: 2px solid #ff6600;
+  font-size: 12px;
+}
+#filters .is-checked {
+  border: 2px solid #ff6600;
+  background: transparent;
+  color: #ff6600;
+}
+
+#new-products .owl-theme .owl-dots .owl-dot span {
+  margin: 5px;
+  background: #003859;
+  transition: 0.4s ease-in-out;
+}
+#new-products .owl-theme .owl-dots .owl-dot:hover span,
+#new-products .owl-theme .owl-dots .owl-dot.active span {
+  width: 20px;
+  background: #ff6600;
+}
+
+#cart-area .cart-img {
+  height: 80px;
+  width: auto;
+}
+
+#blog-slider .item .image {
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+#blog-slider .item {
+  overflow: visible !important;
+}
+
+#blog-slider .slider-overlap {
+  width: 70%;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.freatured-article .item img {
+  margin: 0 auto;
+  margin-bottom: -50px;
+}
+
+.blog-item .blog-img {
+  transition: transform 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.blog-item .blog-img-zoom {
+  transition: transform 0.4s ease-in-out;
+}
+
+.blog-item:hover .blog-img-zoom {
+  transform: scale(1.2) rotate(2deg);
+}
+
+.blog-side-title {
+  position: relative;
+  text-transform: uppercase;
+}
+
+.blog-side-title::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 70px;
+  height: 2px;
+  background: #000;
+}
+
+.subscripbe .bx {
+  background: #eee;
+  margin-bottom: 7px;
+  color: #000;
+  transition: background 0.4s, color 0.4s;
+}
+
+.subscripbe .bx:hover {
+  background: #000;
+  color: #fff;
+}
+
+.ad-banner .ad-content {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000079;
+}
+
+.instagram-feed .feed-items {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+#main-about #about-hero {
+  background: url(./assets/image/bg-32.jpg) center center;
+  background-size: cover;
+  height: 60vh;
+}
+#main-about #learn-about .bx {
+  font-size: 50px;
+  color: #ff6600;
+}
+#main-about #advances .bx,
+#main-about #advances .fa {
+  font-size: 50px;
+  color: #ff6600;
+}
+#main-about #advances h6 {
+  margin: 15px 0;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+#main-about #our-skill .skill-progress {
+  height: 50px;
+  display: block;
+}
+#main-about #our-skill .skill-bar-wrap {
+  background: #EEE;
+}
+#main-about #our-skill .skill-bar-wrap .skill-bar {
+  background: #ff6600;
+  width: 1px;
+  height: 3px;
+  transition: 1s;
+}
+#main-about .team-member .mem-social {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #ffffffbc;
+  opacity: 0;
+  transition: 0.3s ease-in;
+}
+#main-about .team-member:hover .mem-social {
+  opacity: 1;
+}
+#main-about .team-member .mem-social .bx {
+  color: #000;
+  font-size: 20px;
+}
+#main-about .team-member .mem-social .bx:hover {
+  color: #ff6600;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#shop-banner .cta-overlap {
+  top: 0;
+  left: 0;
+  background: #00000081;
+}
+#shop-banner .cta-overlap h5 {
+  font-size: 450%;
+  color: #ffd900 !important;
+}
+#shop-banner .cta img {
+  transition: transform 400ms ease-in-out;
+}
+#shop-banner .cta:hover img {
+  transform: scale(1.3);
+}
+
+.shopping-policy .bx,
+.shopping-policy .fa,
+.shopping-policy .fas,
+.shopping-policy .far,
+.shopping-policy .fab {
+  font-size: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
